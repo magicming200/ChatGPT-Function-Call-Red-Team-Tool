@@ -1,0 +1,170 @@
+[
+    {
+        "name": "hash_decrypt",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "hash_string": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["hash_string"]
+        }
+    },
+    {
+        "name": "md5_encrypt",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "plain_string": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["plain_string"]
+        }
+    },
+    {
+        "name": "sha1_encrypt",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "plain_string": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["plain_string"]
+        }
+    },
+    {
+        "name": "sha256_encrypt",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "plain_string": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["plain_string"]
+        }
+    },
+    {
+        "name": "sha512_encrypt",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "plain_string": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["plain_string"]
+        }
+    },
+    {
+        "name": "search_open_ports",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "host": {
+                    "type": "string",
+                    "description": "ip or ip segment or domain"
+                }
+            },
+            "required": ["host"]
+        }
+    },
+    {
+        "name": "search_subdomains",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "domain": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["domain"]
+        }
+    },
+    {
+        "name": "search_dns",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "domain": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["domain"]
+        }
+    },
+    {
+        "name": "save_text_file",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "content": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["content"]
+        }
+    },
+    {
+        "name": "search_ip_reputation",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "ip": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["ip"]
+        }
+    },
+    {
+        "name": "search_file_reputation",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "file_hash": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["file_hash"]
+        }
+    },
+    {
+        "name": "exploit_vulnerability_CVE_2022_22965",
+        "description": "",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "description": ""
+                }
+            },
+            "required": ["url"]
+        }
+    }
+]
