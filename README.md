@@ -16,20 +16,19 @@ git clone https://github.com/magicming200/ChatGPT-Function-Call-Red-Team-Tool.gi
 cd ChatGPT-Function-Call-Red-Team-Tool
 pip install -r requirements.txt
 ```
-2. Fill in the ChatGPT key：
-go to /config/system_config.py:
+2. Fill in the ChatGPT key, open /config/system_config.py:
 ```
 api_chatgpt_key = '<YOUR_API_KEY>'
 ```
-3. Fill in the red team tool api key：
-go to /config/system_config.py:
+3. Fill in the red team tool api key, open /config/system_config.py:
 ```
+# hash decryption api：
 api_decrypt_email = '<YOUR_API_EMAIL>'
 api_decrypt_key = '<YOUR_API_KEY>'
-
+# ports scan api：
 api_ports_email = '<YOUR_API_EMAIL>'
 api_ports_key = '<YOUR_API_KEY>'
-
+# threat intelligence api：
 api_reputation_key = '<YOUR_API_KEY>'
 ```
 ## Usage
