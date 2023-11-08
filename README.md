@@ -40,7 +40,7 @@ Info gather:
 ![info gather](readme_pics/info_gather.png)  
 Exploit vulnerability:  
 ![exploit vulnerability](readme_pics/exploit_vul_1.png)  
-webshell：  
+get webshell：  
 ![exploit vulnerability](readme_pics/exploit_vul_2.png)  
 Search intelligence:  
 ![search intelligence](readme_pics/intelligence.png)  
