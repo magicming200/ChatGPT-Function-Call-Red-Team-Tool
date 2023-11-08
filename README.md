@@ -10,12 +10,27 @@ Supports sending attack and defense requirements to ChatGPT in natural language,
 - [x] Automatic encryption and decryption: supports decryption of common hash ciphertexts and hash operations on plaintexts.
 - [x] Automatic file generation: currently supports saving ChatGPT’s answer as text file.
 ## Installation
-Install dependent packages:
+1. Install dependent packages:
 ```
+git clone https://github.com/magicming200/ChatGPT-Function-Call-Red-Team-Tool.git
+cd ChatGPT-Function-Call-Red-Team-Tool
 pip install -r requirements.txt
 ```
-ChatGPT key：
-Red team tool api key：
+2. Fill in the ChatGPT key：
+go to /config/system_config.py:
+```
+api_chatgpt_key = '<YOUR_API_KEY>'
+```
+3. Fill in the red team tool api key：
+go to /config/system_config.py:
+```
+api_decrypt_email = '<YOUR_API_EMAIL>'
+api_decrypt_key = '<YOUR_API_KEY>'
 
+api_ports_email = '<YOUR_API_EMAIL>'
+api_ports_key = '<YOUR_API_KEY>'
+
+api_reputation_key = '<YOUR_API_KEY>'
+```
 ## Usage
 1121
