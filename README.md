@@ -32,6 +32,6 @@ api_ports_key = '<YOUR_API_KEY>'
 api_reputation_key = '<YOUR_API_KEY>'
 ```
 ## Usage
-```python
+```bash
  python .\ChatGPT_Function_Call.py
 ```
