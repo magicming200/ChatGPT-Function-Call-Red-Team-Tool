@@ -21,7 +21,7 @@ pip install -r requirements.txt
 api_chatgpt_key = '<YOUR_API_KEY>'
 ```
 3. Fill in the red team tool api key, open /config/system_config.py:
-```
+```python
 # hash decryption api：
 api_decrypt_email = '<YOUR_API_EMAIL>'
 api_decrypt_key = '<YOUR_API_KEY>'
