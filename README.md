@@ -37,14 +37,14 @@ api_reputation_key = '<YOUR_API_KEY>'
 ```
 ## Screenshots
 Info gather:  
-![info gather](readme_pics/info_gather.png)
+![info gather](readme_pics/info_gather.png)  
 Exploit vulnerability:  
-![exploit vulnerability](readme_pics/exploit_vul_1.png)
+![exploit vulnerability](readme_pics/exploit_vul_1.png)  
 webshell：  
-![exploit vulnerability](readme_pics/exploit_vul_2.png)
+![exploit vulnerability](readme_pics/exploit_vul_2.png)  
 Search intelligence:  
-![search intelligence](readme_pics/intelligence.png)
+![search intelligence](readme_pics/intelligence.png)  
 Encrypt and Decrypt:  
-![encrypt and decrypt](readme_pics/encrypt_decrypt.png)
+![encrypt and decrypt](readme_pics/encrypt_decrypt.png)  
 Save file:  
 ![save file ](readme_pics/save_file.png)
