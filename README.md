@@ -5,6 +5,7 @@ There are many example codes for ChatGPT function call api on the Internet, but 
 ## Features
 Supports sending attack and defense requirements to ChatGPT in natural language, ChatGPT uses function call api to automatically do the following:
 - [x] Automatically collect target information: scan ports, collect subdomain names, collect DNS records.
+![info gather](readme_pics/info_gather.png)
 - [x] Automatically exploit vulnerabilities: Currently, it supports exploiting the CVE-2022-22965 vulnerability and returns the exploit results. If the exploit is successful, the webshell address will be returned.
 - [x] Automatic analysis of intelligence: currently supports querying the reputation information of target IP and backdoor files.
 - [x] Automatic encryption and decryption: supports decryption of common hash ciphertexts and hash operations on plaintexts.
