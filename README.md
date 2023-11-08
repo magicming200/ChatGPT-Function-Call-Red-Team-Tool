@@ -17,7 +17,7 @@ cd ChatGPT-Function-Call-Red-Team-Tool
 pip install -r requirements.txt
 ```
 2. Fill in the ChatGPT key, open /config/system_config.py:
-```
+```python
 api_chatgpt_key = '<YOUR_API_KEY>'
 ```
 3. Fill in the red team tool api key, open /config/system_config.py:
@@ -32,4 +32,6 @@ api_ports_key = '<YOUR_API_KEY>'
 api_reputation_key = '<YOUR_API_KEY>'
 ```
 ## Usage
-1121
+```python
+ python .\ChatGPT_Function_Call.py
+```
