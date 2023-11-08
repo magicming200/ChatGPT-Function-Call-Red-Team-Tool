@@ -5,17 +5,10 @@ There are many example codes for ChatGPT function call api on the Internet, but 
 ## Features
 Supports sending attack and defense requirements to ChatGPT in natural language, ChatGPT uses function call api to automatically do the following:
 - Automatically collect target information: scan ports, collect subdomain names, collect DNS records.
-![info gather](readme_pics/info_gather.png)
 - Automatically exploit vulnerabilities: Currently, it supports exploiting the CVE-2022-22965 vulnerability and returns the exploit results. If the exploit is successful, the webshell address will be returned.
-![exploit vulnerability](readme_pics/exploit_vul_1.png)
-webshell：  
-![exploit vulnerability](readme_pics/exploit_vul_2.png)
-- Automatic analysis of intelligence: currently supports querying the reputation information of target IP and backdoor files.
-![analysis intelligence](readme_pics/intelligence.png)
+- Automatic search of intelligence: currently supports querying the reputation information of target IP and backdoor files.
 - Automatic encryption and decryption: supports decryption of common hash ciphertexts and hash operations on plaintexts.
-![encrypt and decrypt](readme_pics/encrypt_decrypt.png)
 - Automatic file generation: currently supports saving ChatGPT’s answer as text file.
-![save file ](readme_pics/save_file.png)
 ## Installation
 1. Install dependent packages:
 ```bash
@@ -42,3 +35,16 @@ api_reputation_key = '<YOUR_API_KEY>'
 ```bash
  python .\ChatGPT_Function_Call.py
 ```
+## Screenshots
+Info gather:  
+![info gather](readme_pics/info_gather.png)
+Exploit vulnerability:  
+![exploit vulnerability](readme_pics/exploit_vul_1.png)
+webshell：  
+![exploit vulnerability](readme_pics/exploit_vul_2.png)
+Search intelligence:  
+![search intelligence](readme_pics/intelligence.png)
+Encrypt and Decrypt:  
+![encrypt and decrypt](readme_pics/encrypt_decrypt.png)
+Save file:  
+![save file ](readme_pics/save_file.png)
