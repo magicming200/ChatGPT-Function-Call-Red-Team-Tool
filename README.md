@@ -39,15 +39,15 @@ api_reputation_key = '<YOUR_API_KEY>'
 - Exit：  
 Enter exit or quit, press Enter.  
 ## Screenshots
-Info gather:  
+- Info gather:  
 ![info gather](readme_pics/info_gather.png)  
-Exploit vulnerability:  
+- Exploit vulnerability:  
 ![exploit vulnerability](readme_pics/exploit_vul_1.png)  
 get webshell：  
 ![exploit vulnerability](readme_pics/exploit_vul_2.png)  
-Search intelligence:  
+- Search intelligence:  
 ![search intelligence](readme_pics/intelligence.png)  
-Encrypt and Decrypt:  
+- Encrypt and Decrypt:  
 ![encrypt and decrypt](readme_pics/encrypt_decrypt.png)  
-Save file:  
+- Save file:  
 ![save file ](readme_pics/save_file.png)
