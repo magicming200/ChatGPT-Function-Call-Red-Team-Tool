@@ -10,7 +10,7 @@ Supports sending attack and defense requirements to ChatGPT in natural language,
 - Automatic encryption and decryption: supports decryption of common hash ciphertexts and hash operations on plaintexts.
 - Automatic file generation: currently supports saving ChatGPT’s answer as text file.
 ## Installation
-1. Install dependent packages:
+1. Clone project and Install dependent packages:
 ```bash
 git clone https://github.com/magicming200/ChatGPT-Function-Call-Red-Team-Tool.git
 cd ChatGPT-Function-Call-Red-Team-Tool
