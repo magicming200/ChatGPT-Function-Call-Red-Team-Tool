@@ -10,6 +10,12 @@ Supports sending attack and defense requirements to ChatGPT in natural language,
 - [x] Automatic encryption and decryption: supports decryption of common hash ciphertexts and hash operations on plaintexts.
 - [x] Automatic file generation: currently supports saving ChatGPT’s answer as text file.
 ## Installation
-1121
+Install dependent packages:
+```
+pip install -r requirements.txt
+```
+ChatGPT key：
+Red team tool api key：
+
 ## Usage
 1121
