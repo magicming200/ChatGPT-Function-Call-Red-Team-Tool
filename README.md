@@ -32,11 +32,11 @@ api_ports_key = '<YOUR_API_KEY>'
 api_reputation_key = '<YOUR_API_KEY>'
 ```
 ## Usage
-Start：  
+- Start：  
 ```bash
  python .\ChatGPT_Function_Call.py
 ```  
-Exit：  
+- Exit：  
 Enter exit or quit, press Enter.  
 ## Screenshots
 Info gather:  
