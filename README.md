@@ -11,7 +11,7 @@ Supports sending attack and defense requirements to ChatGPT in natural language,
 - [x] Automatic file generation: currently supports saving ChatGPT’s answer as text file.
 ## Installation
 1. Install dependent packages:
-```
+```bash
 git clone https://github.com/magicming200/ChatGPT-Function-Call-Red-Team-Tool.git
 cd ChatGPT-Function-Call-Red-Team-Tool
 pip install -r requirements.txt
