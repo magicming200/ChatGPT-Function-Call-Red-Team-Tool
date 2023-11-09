@@ -1,5 +1,4 @@
 # ChatGPT-Function-Call-Red-Team-Tool
-# Language
 - English [English](README.md)
 - Japanese [Japanese](README_ja.md)
 ## Introduction
