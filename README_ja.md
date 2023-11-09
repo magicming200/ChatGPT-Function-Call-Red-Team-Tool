@@ -39,7 +39,7 @@ api_reputation_key = '<YOUR_API_KEY>'
 - 出口：  
 「exit」または「quit」と入力し、Enterを押します。
 ## スクリーンショット
-- 情報収集: 
+- 情報収集:  
 ![info gather](readme_pics/info_gather.png)  
 - 脆弱性の検証:
 ![exploit vulnerability](readme_pics/exploit_vul_1.png)  
